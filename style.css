@@ -1,0 +1,161 @@
+/* Reset simple */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps de page */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  margin: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+/* Hero */
+.hero {
+  height: 300px;
+  background: url("https://picsum.photos/1200/400") center/cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Figures */
+figure {
+  text-align: center;
+  margin: 20px;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Services (details) */
+details {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fafafa;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Tableau */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #333;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #333;
+  color: white;
+}
+
+/* Formulaire */
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background: #00bcd4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #0097a7;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+/* Responsive (mobile) */
+@media (max-width: 600px) {
+  .hero {
+    font-size: 20px;
+    height: 200px;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+}
